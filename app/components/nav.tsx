@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useTheme } from 'next-themes'
 
 const navItems = {
   '/': {
@@ -10,6 +11,8 @@ const navItems = {
 }
 
 export function Navbar() {
+  const { theme, setTheme } = useTheme()
+
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
       <div className="lg:sticky lg:top-20">
@@ -29,6 +32,15 @@ export function Navbar() {
               )
             })}
           </div>
+
+          <button
+            className="p-2"
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            aria-label="Toggle Dark Mode"
+          >
+            Toggle Dark Mode
+          </button>
+
         </nav>
       </div>
     </aside>
