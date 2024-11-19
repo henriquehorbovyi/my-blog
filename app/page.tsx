@@ -4,14 +4,15 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Hello 👋
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {
+         `I'm Henrique Horbovyi, and I'm excited to have you here at my little corner of 
+          the internet where Android app development meets creativity and innovation. 
+          Whether you're a seasoned developer, a curious newbie, or just 
+          someone who loves all things tech, there's something here for you!`
+        }
       </p>
       <div className="my-8">
         <BlogPosts />
