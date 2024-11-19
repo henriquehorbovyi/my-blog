@@ -11,7 +11,7 @@ export default function Page() {
          `I'm Henrique Horbovyi, and I'm excited to have you here at my little corner of 
           the internet where Android app development meets creativity and innovation. 
           Whether you're a seasoned developer, a curious newbie, or just 
-          someone who loves all things tech, there's something here for you!`
+          someone who loves all the tech things, there's something here for you!`
         }
       </p>
       <div className="my-8">
