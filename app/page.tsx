@@ -7,12 +7,11 @@ export default function Page() {
         Hello 👋
       </h1>
       <p className="mb-4">
-        {
-         `I'm Henrique Horbovyi, and I'm excited to have you here at my little corner of 
-          the internet where Android app development meets creativity and innovation. 
+          I'm Henrique Horbovyi, a Software Developer passionated about mobile tech 📱 
+          and it's very exciting to have you here on my corner of the Internet.
+          <br/>  
           Whether you're a seasoned developer, a curious newbie, or just 
-          someone who loves all the tech things, there's something here for you!`
-        }
+          someone who loves tech, there's something here for you!
       </p>
       <div className="my-8">
         <BlogPosts />
