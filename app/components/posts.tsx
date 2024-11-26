@@ -3,7 +3,7 @@ import { formatDate, getBlogPosts } from '../blog/utils'
 
 function EmptyState() {
   return (
-    <p className='p-8 w-full text-center text-stone-400 dark:text-stone-400 '>No posts yet 🤖!!</p>
+    <p className='p-8 w-full text-center text-stone-400 dark:text-stone-400 '>No posts yet 🤖</p>
   )
 }
 
